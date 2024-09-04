@@ -1,6 +1,6 @@
 const G_CTE: u32 = 100;
 
-fn main() {
+pub fn run() {
     const L_CTE: u32 = 50;
     println!("The value of the global cte is: {G_CTE}\nThe value of the local cte is: {L_CTE}");
     let mut x: isize = 5;
