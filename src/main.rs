@@ -1,11 +1,14 @@
-mod guessing_game;
-mod variables;
-mod send_receive;
-mod bee_1853_game_of_trust;
+// mod guessing_game;
+// mod variables;
+// mod send_receive;
+// mod bee_1853_game_of_trust;
+mod functions;
 
 fn main() {
-    variables::run();
-    println!("Hello, World");
-    send_receive::run();
-    guessing_game::run();
+    println!("--------- Main File ----------");
+    // variables::main();
+    // send_receive::main();
+    // guessing_game::main();
+    // bee_1853_game_of_trust::main();
+    functions::main();
 }
