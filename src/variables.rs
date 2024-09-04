@@ -1,6 +1,6 @@
 const G_CTE: u32 = 100;
 
-pub fn run() {
+pub fn main() {
     const L_CTE: u32 = 50;
     println!("The value of the global cte is: {G_CTE}\nThe value of the local cte is: {L_CTE}");
     let mut x: isize = 5;
@@ -62,6 +62,6 @@ pub fn run() {
     
     let t = ([1; 2], [3; 4]);
     let (a, b) = t;
-    println!("{}", a[0] + t.1[0]);
+    println!("{}", a[0] + (t.1[0] & b[0]));
 
 }

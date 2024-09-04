@@ -9,7 +9,7 @@ use std::io;
 use std::cmp::Ordering;
 use rand::Rng;
 
-pub fn run() {
+pub fn main() {
     println!("Insira o número chutado:");
     
         let resposta = rand::thread_rng().gen_range(1..=100);

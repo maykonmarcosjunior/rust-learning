@@ -37,6 +37,6 @@ ab 1                |
 ac 1                |
 */
 
-pub fn run() {
+pub fn main() {
     println!("BEE 1853 - Game of Trust");
 }
